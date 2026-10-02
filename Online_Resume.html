@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorathon Kaewserm - Online Resume</title>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --secondary: #3b82f6;
+      --accent: #f3f4f6;
+      --text: #1f2937;
+      --text-muted: #4b5563;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background-color: var(--bg);
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    header {
+      background: var(--primary);
+      color: #ffffff;
+      padding: 40px 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #cbd5e1;
+    }
+
+    .content {
+      padding: 30px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    section:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      color: var(--primary);
+      border-bottom: 2px solid var(--secondary);
+      padding-bottom: 6px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    p {
+      color: var(--text-muted);
+      font-size: 0.98rem;
+    }
+
+    .item-title {
+      font-weight: 600;
+      color: var(--text);
+      font-size: 1.05rem;
+    }
+
+    .item-subtitle {
+      color: var(--secondary);
+      font-size: 0.9rem;
+      margin-bottom: 6px;
+      font-weight: 500;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+      color: var(--text-muted);
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .badge {
+      background: var(--accent);
+      color: var(--primary);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid #e2e8f0;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      .content {
+        padding: 20px;
+      }
+      header {
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Sorathon Kaewserm</h1>
+      <p>Bang Lamung, Chonburi, Thailand</p>
+    </header>
+
+    <div class="content">
+      <!-- Profile Statement -->
+      <section>
+        <h2>Profile Statement</h2>
+        <p>
+          Enthusiastic and motivated Economics graduate with a strong foundation in economic theory, trade, and data analysis. Dedicated to self-improvement, professional development, and continuous learning. Seeking to apply analytical thinking and strategic problem-solving skills in a dynamic environment.
+        </p>
+      </section>
+
+      <!-- Education -->
+      <section>
+        <h2>Education</h2>
+        <div>
+          <div class="item-title">Bachelor of Economics</div>
+          <div class="item-subtitle">University of the Thai Chamber of Commerce (UTCC)</div>
+          <p>Relevant Coursework: Microeconomics, Macroeconomics, International Trade, Market Analysis, and Business Statistics.</p>
+        </div>
+      </section>
+
+      <!-- Work Experience -->
+      <section>
+        <h2>Work Experience</h2>
+        <div>
+          <div class="item-title">Student Academic Projects & Research Assistant</div>
+          <div class="item-subtitle">University of the Thai Chamber of Commerce</div>
+          <ul>
+            <li>Conducted research and quantitative analysis on macroeconomic trends and regional trade openness.</li>
+            <li>Collaborated with team members to prepare reports and present strategic recommendations for marketing and business cases.</li>
+            <li>Analyzed market data to extract key insights for business strategy coursework.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Interests & Hobbies -->
+      <section>
+        <h2>Interests & Hobbies</h2>
+        <div class="badges">
+          <span class="badge">Macroeconomics & Global Markets</span>
+          <span class="badge">Fitness & Body Recomposition</span>
+          <span class="badge">E-sports & Online Gaming Strategy</span>
+          <span class="badge">Foreign Language Learning</span>
+        </div>
+      </section>
+    </div>
+  </div>
+
+</body>
+</html>
